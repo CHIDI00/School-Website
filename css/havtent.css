@@ -49,5 +49,59 @@ header {
 .nav-bar li a {
     text-decoration: none;
     font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+    padding: 5px 15px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.nav-bar li a:hover {
     color: #40916c;
+    background-color: whitesmoke;
+}
+
+.nav-bar li a.active {
+    color: #40916c;
+}
+
+#menu-icon {
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+#menu-icon:hover {
+    color: #40916c;
+}
+
+@media (max-width: 1280px) {
+    header {
+        padding: 14px 2%;
+    }
+
+    .nav-bar {
+        padding: 5px 0;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    #menu-icon {
+        display: block;
+    }
+    .nav-bar {
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        background: #40916c;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 0 0 10px 10px;
+        transition: all 0.50s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
 }
