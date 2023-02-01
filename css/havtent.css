@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.section-1 .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+}
+
+.section-1 .section-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: aquamarine;
+}
