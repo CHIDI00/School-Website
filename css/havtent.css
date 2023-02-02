@@ -125,7 +125,7 @@ header {
 .section-1 img{
     position: relative;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
 }
 
 #prevBtn {
@@ -165,7 +165,9 @@ header {
 
 @media (max-width: 840px) {
     .section-1 img {
-        height: 70vh;
+        height: 80vh;
+        width: 100vw;
+        overflow-y: hidden;
     }
 
     #prevBtn {
@@ -190,8 +192,57 @@ header {
 .content-1 {
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 65%;
     transform: translate(-50%, -50%) !important;
-
     z-index: 10;
+}
+
+
+.content-1 h1 {
+    font-size: 50px;
+    color: #0a6b40;
+    font-weight: 900;
+    word-wrap: wrap;
+}
+
+.content-1 p {
+    font-size: 15px;
+    color: wheat;
+}
+
+.content-1 button {
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 20px 10px;
+    background:#40916c;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 840px) {
+    .content-1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        height: 50%;
+        padding: 10px;
+        /* align-items: center;
+        justify-content: center; */
+        transform: translate(-50%, -50%) !important;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 20;
+    }
+
+    .content-1 h1 {
+        font-size: 35px;
+        text-align: left;
+        padding: 20px;
+        color: #0a6b40;
+        font-weight: 900;
+        word-wrap: wrap;
+    }
 }
