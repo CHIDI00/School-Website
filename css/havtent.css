@@ -125,7 +125,7 @@ header {
 .section-1 img{
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 #prevBtn {
@@ -167,7 +167,7 @@ header {
     .section-1 img {
         height: 80vh;
         width: 100vw;
-        overflow-y: hidden;
+        position: static;
     }
 
     #prevBtn {
@@ -222,6 +222,10 @@ header {
     cursor: pointer;
 }
 
+.content-1 button:hover {
+    opacity: .9;
+}
+
 @media (max-width: 840px) {
     .content-1 {
         position: absolute;
@@ -245,4 +249,84 @@ header {
         font-weight: 900;
         word-wrap: wrap;
     }
+
+    .content-1 p {
+        font-size: 13px;
+        color: wheat;
+        padding: 0 20px;
+    }
+
+    .content-1 button {
+        margin: 20px 150px;
+    }
 }
+
+/* about section  */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding: 20px;
+}
+
+.about-us img {
+    width: 400px;
+    height: 500px;
+}
+
+.about-us .info {
+    padding: 0 40px;
+    text-align: justify;
+}
+
+/* .about {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background-color: #D8F3DC;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    text-underline-position: below;
+    
+}
+
+.about-us {
+    display: flex;
+    padding: 30px;
+}
+
+.about-us img {
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+} */
