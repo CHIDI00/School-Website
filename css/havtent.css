@@ -86,7 +86,7 @@ header {
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 840px) {
     #menu-icon {
         display: block;
     }
@@ -97,11 +97,26 @@ header {
         width: 270px;
         height: 29vh;
         background: #40916c;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 0 0 10px 10px;
         transition: all 0.50s ease;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-bar.active {
+        display: flex;
+    }
+
+    .nav-bar li a {
+        display: block;
+        margin: 8px 0px;
+        padding: 3px 25px;
+        color: #ffffff;
+    }
+
+    .nav-bar li a.active {
+        background-color: whitesmoke;
     }
 }
