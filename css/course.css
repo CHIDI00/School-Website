@@ -1,0 +1,45 @@
+.courses-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-container .course-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+}
+
+.course-container {
+    padding: 50px;
+}
+
+.course-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+}
+
+.course-head h2 {
+    color: #0a6b40;
+    font-size: 30px;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.course-head p {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
