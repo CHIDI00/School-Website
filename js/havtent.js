@@ -17,19 +17,19 @@ const images = ['image9', 'image4', 'image2']
 let currentImg = 0;
 let timeOut;
 
-prevBtn.addEventListener('click', () =>{
-    if (currentImg < 1) {
-        currentImg = images.length
-    } 
-    updateImg()
-})
+// prevBtn.addEventListener('click', () =>{
+//     if (currentImg < 1) {
+//         currentImg = images.length
+//     } 
+//     updateImg()
+// })
 
-nextBtn.addEventListener('click', () =>{
-    if (currentImg > images.length) {
-        currentImg = 0
-    }
-    updateImg()
-});
+// nextBtn.addEventListener('click', () =>{
+//     if (currentImg > images.length) {
+//         currentImg = 0
+//     }
+//     updateImg()
+// });
 
 function updateImg() {
     const image = images[currentImg]
