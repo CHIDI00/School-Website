@@ -1,10 +1,17 @@
+.our-courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .courses-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.course-container .course-container{
+.course-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +26,7 @@
     align-items: center;
     /* background-color: aqua; */
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #14eb8a;
 }
 
 .course-contents {
@@ -40,16 +47,22 @@
 }
 
 .course-head h2 {
-    color: #0a6b40;
+    color: #ffffff;
     font-size: 30px;
     padding: 10px 0;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .course-head p {
-    padding: 10px 20px;
+    
     font-size: 16px;
     text-align: center;
+    color: #fff;
+}
+
+.Heading p {
+    padding: 10px 100px;
 }
 
 .course-choices {
@@ -64,10 +77,14 @@
 .course {
     width: 200px;
     background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     gap: 10px;
-    
+    transition: all .5s;
+}
+
+.course:hover {
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
 }
 
 .course img {
@@ -85,6 +102,7 @@
 .course .content h1 {
     font-size: 13px;
     font-weight: 600;
+    color: #0a6b40;
 }
 
 .course .content h3 {
