@@ -26,7 +26,7 @@
     align-items: center;
     /* background-color: aqua; */
     width: 100%;
-    background-color: #d8f3dc;
+    /* background-color: #d8f3dc; */
 }
 
 .course-contents {
@@ -152,4 +152,67 @@
     border-radius: 5px;
     /* opacity: .4; */
     cursor: pointer;
+}
+
+
+/* Fourth Section  */
+.Admission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.Admission .admission-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    padding: 0;
+}
+
+.admission-container .ad-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blueviolet;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    width: 80%;
+}
+
+.ad-content .flex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid red;
+}
+
+.ad-content .ad-image {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #0a6b40;
+}
+
+.ad-image img {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.grid-image {
+    width: 250px;
+    height: 100%;
+    padding: 15px 0;
+}
+
+.grid-image img {
+    width: 100%;
+    height: 160px;
+    margin: 10px 0;
 }
