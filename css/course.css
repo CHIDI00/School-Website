@@ -274,6 +274,71 @@
 .footer .footer-container {
     width: 100%;
     height: 100%;
-    background-color: #0a6b40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #022a18;
     padding: 15px;
+}
+
+.footer-content-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    /* background-color: #fff; */
+    border: 2px solid red;
+    color: #fff;
+}
+
+.footer-content-container .links {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px ;
+}
+
+.links h1{
+    padding: 20px 0;
+}
+
+.links p {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.social-handles {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-handles .social-icons {
+    display: flex;
+    /* padding: 0 10px; */
+    gap: 10px;
+}
+
+.footer-content-container .useful-links {
+    width: 400px;
+    margin: 10px 20px;
+}   
+
+.useful-links h3 {
+    color: #fff;
+}
+
+.useful-links .the-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.the-links a {
+    text-decoration: none;
+    padding: 2px 0;
+    color: #fff;
+}
+
+.the-links a:hover {
+    border-bottom: 2px solid #fff;
 }
