@@ -167,7 +167,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #fff;
     width: 100%;
     padding: 0;
 }
@@ -176,7 +176,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
     width: 80%;
@@ -188,15 +188,62 @@
     width: 50%;
     padding: 10px;
     margin: 0 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
+
+.flex .heading {
+    width: 100%;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.flex .heading h1 {
+    text-align: left;
+    font-size: 25px;
+    /* color: #0a6b40; */
+    /* font-weight: 900; */
+}
+
+.flex .contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex .contents .content-a {
+    padding-right: 25px;
+    color: #0a6b40;
+}
+
+.flex .contents .content-text {
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.flex .contents .more {
+    padding: 0 20px;
+}
+
+.flex .contents .content-text h3{
+    font-size: 18px;
+    /* color: #0a6b40; */
+}
+
+.flex .contents .content-text p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
 
 .ad-content .ad-image {
     width: 500px;
     height: 400px;
     display: flex;
     /* flex-wrap: wrap; */
-    background-color: #0a6b40;
+    /* background-color: #0a6b40; */
 }
 
 .ad-image img {
@@ -215,4 +262,16 @@
     width: 100%;
     height: 160px;
     margin: 10px 0;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+}
+
+.footer .footer-container {
+    width: 100%;
+    height: 100%;
+    background-color: #0a6b40;
+    padding: 15px;
 }

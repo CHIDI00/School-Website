@@ -26,7 +26,7 @@ function updateImg() {
     if (currentImg == images.length) {
         currentImg = 0
     } 
-    // imageContainer.style.transform = `translateX(-${(currentImg - 1) * 0}px)`;
+    // imageContainer.style.transform = `translateX(-${(currentImg - 1) * 100}px)`;
     setTimeout(()=> {
         updateImg()
     }, 3000)
