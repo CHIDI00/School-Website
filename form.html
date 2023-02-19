@@ -14,30 +14,33 @@
 <body>
     <div class="container">
         <div class="form-box">
-          <h1>Sign up</h1>
+          <h1 id="title">Sign up</h1>
             <form>
                 <div class="formarea">
-                <div class="inputfield">
+                <div class="inputfield" id="nameField">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" class="username">
+                    <input type="text" class="username" placeholder="Username">
                 </div>
+
                 <div class="inputfield">
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="email" class="mail">
+                    <input type="email" class="mail" placeholder="Email">
                 </div>
+
                 <div class="inputfield">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" class="password">
+                    <input type="password" class="password" placeholder="Password">
                 </div>
+                <p class="precovery">Forgotten password? <a href="#">Click here</a></p>
             </div>
-            </form>
+            
 
-            <p class="precovery">Forgotten password? <a href="#">Click here</a></p>
 
             <div class="createacc">
-                <button class="signup">Sign up</button>
-                <button class="signin">Sign in</button>
+                <button type="button" id="signupBtn">Sign up</button>
+                <button type="button" id="signinBtn" class="disable">Sign in</button>
             </div>
+        </form>
         </div>
     </div>
 </body>
