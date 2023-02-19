@@ -57,6 +57,10 @@ form .inputfield {
     width: 100%;
 }
 
+.formarea {
+    margin-top: 30px;
+}
+
 .form-box {
     width: 100%;
 }

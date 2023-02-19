@@ -5,6 +5,7 @@ const title = document.getElementById('title');
 
 signinBtn.onclick = () => {
     nameField.style.maxHeight = '0'
+    title.innerText = 'Sign in';
     signinBtn.style.backgroundColor = '#0a6b40'
     signinBtn.style.color = '#FFF'
     signupBtn.style.backgroundColor = '#cbf0bb'
@@ -14,7 +15,7 @@ signinBtn.onclick = () => {
 
 signupBtn.onclick = () => {
     nameField.style.maxHeight = '65px'
-
+    title.innerText = 'Sign up'
     signupBtn.style.backgroundColor = '#0a6b40'
     signupBtn.style.color = '#FFF'
     signinBtn.style.backgroundColor = '#cbf0bb'
