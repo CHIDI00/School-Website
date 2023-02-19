@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,9 +27,24 @@ body {
     padding: 20px;
 }
 
-.container h1 {
+ h1 {
     color: #0a6b40;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* padding: 10px 0; */
+    margin: 10px 0;
+}
+
+.form-box h1::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #0a6b40;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .container form {
@@ -41,6 +57,10 @@ form .inputfield {
     position: relative;
     width: 100%;
     position: relative;
+}
+
+.formarea {
+    margin: 10px 0;
 }
 
 .inputfield input {
@@ -66,8 +86,27 @@ form .inputfield {
     z-index: 1000;
 }
 
-.container .precovery {
+form p {
     width: 100%;
     font-size: 13px;
     text-align: left;
+}
+
+.createacc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin: 10px 0;
+}
+
+.createacc button {
+    width: 150px;
+    background-color: #0a6b40;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    transition: background .1s;
+    cursor: pointer;
 }
