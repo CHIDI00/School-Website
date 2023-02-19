@@ -54,37 +54,42 @@ body {
 }
 
 form .inputfield {
-    position: relative;
     width: 100%;
-    position: relative;
 }
 
-/* .formarea {
-    margin: 10px 0;
-} */
-
-.inputfield input {
-    position: relative;
+.form-box {
     width: 100%;
-    padding: 10px 5px 10px 40px;
-    border: none;
-    outline: none;
+}
+
+.inputfield {
+    /* position: relative; */
+    width: 100%;
+    display: flex;
     border-radius: 5px;
-    font-size: 20px;
-    margin: 10px 0;
+    margin: 15px 0;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
     background-color: #cff6d5;
 }
 
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-size: 20px; */
+    padding: 18px 10px;
+    background: transparent;
+}
+
 .inputfield i {
-    position: absolute;
     color: #0a6b40;
     font-size: 20px;
-    top: 0%;
-    left: 2%;
-    text-align: center;
-    padding: 20px 5px;
+    /* text-align: center; */
+    padding: 0 10px;
     /* transform: translate(-50%, -50%); */
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 form p {
