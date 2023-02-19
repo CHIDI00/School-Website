@@ -51,3 +51,14 @@ form .inputfield {
     border-radius: 5px;
 }
 
+.inputfield i {
+    position: absolute;
+    color: #0a6b40;
+    font-size: 20px;
+    top: 0%;
+    left: 2%;
+    text-align: center;
+    padding: 5px;
+    /* transform: translate(-50%, -50%); */
+    z-index: 1000;
+}
