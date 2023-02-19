@@ -227,7 +227,7 @@ header {
     color: wheat;
 }
 
-.content-1 button {
+.content-1 .chooseHavtont {
     width: 150px;
     text-decoration: none;
     color: white;
@@ -238,6 +238,14 @@ header {
     font-weight: 600;
     cursor: pointer;
 }
+
+.content-1 .chooseHavtont a {
+    color: aqua;
+}
+
+/* .content-1 .chooseHavtont {
+    margin: 20px 150px;
+} */
 
 .content-1 button:hover {
     opacity: .9;
@@ -271,10 +279,6 @@ header {
         font-size: 13px;
         color: wheat;
         padding: 0 20px;
-    }
-
-    .content-1 button {
-        margin: 20px 150px;
     }
 }
 
