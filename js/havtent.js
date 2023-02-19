@@ -35,7 +35,14 @@ updateImg()
 
 // scroll effect
 window.addEventListener('scroll', ()=> {
-    
+    let content = document.querySelectorAll('.scroll-content');
+    let contentPosition = getBondingClientRect().top;
+    let screenPosition = window.innerHeight / 1;
+    if (contentPosition < screenPosition) {
+        content.classList.add('active')
+    } else {
+        content.classList.remove('active')
+    }
 })
 
 // nextBtn.addEventListener("click", ()=>{
@@ -68,3 +75,7 @@ window.addEventListener('scroll', ()=> {
 // }
 
 // updateImg()
+
+window.addEventListener('scroll', ()=> {
+
+})
