@@ -21,3 +21,8 @@ signupBtn.onclick = () => {
     signinBtn.style.backgroundColor = '#cbf0bb'
     signinBtn.style.color = '#0a6b40'
 }
+
+
+function form() {
+    let 
+}
