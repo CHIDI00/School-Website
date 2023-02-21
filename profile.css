@@ -14,7 +14,7 @@ body {
 }
 
 .body-container {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -29,7 +29,7 @@ body {
     height: 80px;
 }
 
-.profile-container .container {
+.profile-container .containerEl {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ body {
     background: #012405;
 }
 
-.container h1{
+.containerEl h1{
     padding: 5px 20px;
 }
 
@@ -83,7 +83,7 @@ button i {
     /* border: 2px solid red; */
     margin: 0 5px 0 0;
     border-radius: 5px;
-    background-color: #012405;
+    background-color: #04a417;
 }
 
 .user-dashboard .profile {
@@ -111,7 +111,7 @@ button i {
     flex-direction: column;
     width: 100%;
     height: 600px;
-    background-color: #012405;
+    background-color: #04a417;
 }
 
 .profie-board-2 {
@@ -122,15 +122,24 @@ button i {
     align-items: center;
     padding: 10px;
     /* overflow: scroll; */
-    background-color: #012405;
+    background-color: #04a417;
 }
 
 .dash-board {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
     padding: 10px;
     width: 100%;
     height: 50px;
     text-align: center;
     margin: 5px;
+}
+
+.dash-board i {
+    color: #fff;
+    padding: 0 10px;
 }
 
 .dash-board:hover {
