@@ -48,7 +48,7 @@ body {
     padding: 10px 30px;
 }
 
-.container button {
+.containerEl .Btn {
     margin: 5px 30px;
     padding: 8px 15px;
     font-weight: 700;
@@ -143,7 +143,7 @@ button i {
 }
 
 .dash-board:hover {
-    background-color: #011103;
+    background-color: #068416;
 }
 
 .right-board {
